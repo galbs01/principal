@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.pleca {
+    background: url(../img/fondo1.jpg);
+    width: 100%;
+    height: 125px;
+    border-bottom: 10px solid #dda300;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    display: block;
+    margin: -75px auto;
+    border: 2px groove #dda300;
+}
+.nombre{
+    margin-top:95px;
+    width:100%;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;
+}
+
+    h1 span {
+        font-family: 'Ubuntu', sans-serif;
+
+        font-weight: 300;
+        color: #dda300;
+    }
+h2 {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px;
+    font-family: 'Cairo', sans-serif;
+}
+hr {
+ 
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 20%);
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.frase {
+    font-family: 'Quintessential', cursive;
+    margin: 0px 10px 50px 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+}
+
+
+.botonRedondo {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    transform: scale(1.2);
+    border-radius: 50%;
+    font-size: .875rem;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 20%);
+    font-weight: 500;
+    padding: 1rem 1rem 1rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    margin:10px;
+}
+    .botonRedondo:hover {
+        opacity: 0.90;
+        -moz-opacity: .90;
+        filter: alpha (opacity=90);
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 40%), 0 2px 10px 0 rgb(0 0 0 / 40%);
+        cursor: pointer;
+    }
+
+.tema {
+ background-color:#dda300;
+ color:white;
+}
+.cajaBotones {
+    text-align-last: center;
+    display: flex;
+    justify-content: center;
+}
+.etiquetaBoton {
+    font-family: 'Cairo', sans-serif;
+    font-size: 0.8rem;
+    display: block;
+    margin-top: 20px;
+}
+.qr {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin: 25px auto;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 40%), 0 2px 10px 0 rgb(0 0 0 / 40%);
+}
+.contacto {
+    background-color: #dda300;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 40%), 0 2px 10px 0 rgb(0 0 0 / 40%);
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+    z-index: 999999;
+    color: white;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
